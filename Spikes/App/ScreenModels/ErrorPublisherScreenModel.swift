@@ -32,12 +32,13 @@ class ErrorPublisherScreenModel: ObservableObject, ErrorSubscriber {
   func receiveError(_ error: PublishableError) {
     latestError = error
 
-    switch error.key.value {
-    case "alert-button":
+    switch error.key {
+    case .alertButton:
       if alertError == nil {
         alertError = error
       }
-    case "async-error":
+      // TODO: add error to a queue
+    case .asyncError:
       asyncError = error
       timeRemaining = asyncTimeTotal
       let dT = 1
