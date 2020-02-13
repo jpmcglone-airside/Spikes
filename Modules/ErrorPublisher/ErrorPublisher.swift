@@ -11,10 +11,14 @@ public class ErrorPublisher {
   /// A map for global subscribers. Only used if this subscriber is not setup with specific keys
   private var globalSubscribers = [ErrorSubscriber]()
 
-  /// Initializer
-  public init() {
-    // TODO: pull version from somewhere, like xcconfig? Cocoapods
-    print("Initializing ErrorPublisher, version 0.1")
+  /// The initializer
+  public init() { }
+
+  /// The version of this module
+  public static var version: String {
+    let bundle = Bundle(for: ErrorPublisher.self)
+    let version = bundle.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
+    return version ?? "N/A"
   }
 
   // MARK: - Publish

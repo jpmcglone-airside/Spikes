@@ -39,6 +39,8 @@ class App: ObservableObject, ErrorSubscriber {
     _mainMenuViewModel = Lazy(MainMenuScreenModel())
     _errorPublisherViewModel = Lazy(ErrorPublisherScreenModel(errorPublisher: errorPublisher))
     _allErrorsViewModel = Lazy(AllErrorsScreenModel(errorPublisher: errorPublisher))
+
+    print("Using ErrorPublisher \(ErrorPublisher.version)")
   }
 
   /// Clears the
