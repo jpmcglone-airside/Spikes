@@ -1,0 +1,82 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/Core/Object.swift",
+      "line": 6,
+      "symbol": "Object.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/Core/ObjectType.swift",
+      "line": 5,
+      "symbol": "ObjectType.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/Core/ObjectType.swift",
+      "line": 6,
+      "symbol": "ObjectType.createdAt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/ErrorSubscriber.swift",
+      "line": 3,
+      "symbol": "ErrorSubscriber",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/ErrorSubscriber.swift",
+      "line": 4,
+      "symbol": "ErrorSubscriber.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/ErrorSubscriber.swift",
+      "line": 15,
+      "symbol": "ErrorSubscriber",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/PublishableError.swift",
+      "line": 3,
+      "symbol": "PublishableError",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/Subscribers/ErrorLogger.swift",
+      "line": 25,
+      "symbol": "ErrorLogger.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/Transforms/NSErrorTransform.swift",
+      "line": 5,
+      "symbol": "NSErrorTransform.OldError",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/Transforms/TransformType.swift",
+      "line": 3,
+      "symbol": "TransformType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jpmcglone/Developer/other/Spikes/Modules/ErrorPublisher/Transforms/TransformType.swift",
+      "line": 4,
+      "symbol": "TransformType.OldError",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jpmcglone/Developer/other/Spikes"
+}

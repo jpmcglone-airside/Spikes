@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ErrorPublisher (0.0.1)
+  - ErrorPublisher/Tests (0.0.1):
+    - Nimble
+    - Quick
+  - Nimble (8.0.5)
+  - Quick (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ErrorPublisher (from `Modules/ErrorPublisher`)
+  - ErrorPublisher/Tests (from `Modules/ErrorPublisher`)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  ErrorPublisher:
+    :path: Modules/ErrorPublisher
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ErrorPublisher: b54f3d44a0d1119165e00356025ad9468d130b44
+  Nimble: 4ab1aeb9b45553c75b9687196b0fa0713170a332
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+
+PODFILE CHECKSUM: bd74166fef73377f4bab80b6e07815fd4e890258
+
+COCOAPODS: 1.8.4
